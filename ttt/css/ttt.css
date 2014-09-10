@@ -1,0 +1,29 @@
+.square {
+  width: 60px;
+  height: 60px;
+  border-left: thin solid black;
+  border-top: thin solid black;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.grid {
+  height: 180px;
+  width: 180px;
+  border-right: thin solid black;
+  border-bottom: thin solid black;
+  font-size: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 180px;
+}
+
+.xowned {
+  background: red;
+}
+
+.oowned {
+  background: green;
+}
